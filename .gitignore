@@ -1,0 +1,12 @@
+# Ignore third-party package folders
+node_modules/
+venv/
+.venv/
+
+# Ignore system configuration spam
+.DS_Store
+Thumbs.db
+
+# Ignore secret keys and environment variables
+.env
+*.local
