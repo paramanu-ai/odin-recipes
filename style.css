@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FDFBF7;
+    color: #2D3748;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #C0392B;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #E67E22;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495E;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 8px;
+}
+
+h4 {
+    color: #D35400;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}
+
+p {
+    color: #4A5568;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: center;
+    background-color: #FFF;
+    padding: 15px;
+    border-left: 4px solid #C0392B;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #2980B9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #C0392B;
+}
+
+a[href*="index"] {
+    display: inline-block;
+    background-color: #E2E8F0;
+    color: #4A5568;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+a[href*="index"]:hover {
+    background-color: #C0392B;
+    color: #FFFFFF;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    margin: 25px auto;
+}
+
+ul, ol {
+    background-color: #FFFFFF;
+    padding: 25px 40px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+ol li strong {
+    color: #C0392B;
+}
+
+h4 + ul {
+    padding-top: 15px;
+}
+
+ol li {
+    margin-bottom: 16px;
+    padding-left: 5px;
+}
